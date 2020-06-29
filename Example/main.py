@@ -9,7 +9,7 @@ WINDOW_TITLE = "Multiplayer Tutorial"
 FPS = 60
 
 CLIENT = ClientManager(
-    host = "192.168.0.112",
+    host = "localhost",
     port = 12750
 )
 
