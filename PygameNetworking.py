@@ -1,3 +1,9 @@
+####################################
+#         PYGAME NETWORKING        #
+#            VERSION: 1.0          #
+#       AUTHOR: SAMUEL ANDRADE     #
+####################################
+
 import socket
 import threading
 import select
@@ -84,11 +90,13 @@ class ClientManager():
         self.players = {}
         self.ID = 0
         self.received_data = None
+        self.connected = False
 
     def connect(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.connect((self.host, self.port))
         atexit.register(self.quit)
+        self.connected = True
 
     def receive_data(self):
         if self.recv_timer.getTimer() >= self.receive_time:
