@@ -41,14 +41,14 @@ class ServerManager():
     def disconnect(self, client, addr):
         client.close()
         del self.address_list[addr]
-        print("Player disconnected from server: ("+str(addr[0])+":"+str(addr[1])+")")
+        print("Player disconnected from server: ["+str(addr[0])+":"+str(addr[1])+"]")
 
     def on_connected(self, client, addr):
         self.address_list[addr] = {}
         self.init_ID += 1
         self.address_list[addr]["ID"] = self.init_ID
         self.address_list[addr]["Received"] = {}
-        print("New Player Connected: "+str(addr[0])+":"+str(addr[1])+")")
+        print("New Player Connected: ["+str(addr[0])+":"+str(addr[1])+"]")
 
         while True:
             try:
