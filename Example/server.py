@@ -1,4 +1,4 @@
-from PygameNetworking import ServerManager
+from PygSimpleNet import ServerManager
 
 Server = ServerManager(
     host = "localhost",
