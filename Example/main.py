@@ -1,6 +1,6 @@
 import pygame
 from pygame.locals import *
-from PygameNetworking import ClientManager
+from PygSimpleNet import ClientManager
 
 # Constantes
 WINDOW_SIZE = (640,480)
