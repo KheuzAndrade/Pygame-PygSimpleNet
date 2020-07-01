@@ -1,5 +1,5 @@
 ####################################
-#         PYGAME NETWORKING        #
+#            PYGSIMPLENET          #
 #            VERSION: 1.0          #
 #       AUTHOR: SAMUEL ANDRADE     #
 ####################################
