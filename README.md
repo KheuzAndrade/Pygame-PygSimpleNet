@@ -1,4 +1,4 @@
-# PygameNetworking LIB
+# PygSimpleNet LIB
 
 This lib is being made so that game developers using pygame can implement a multiplayer (online) mode in their projects.
 
