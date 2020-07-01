@@ -1,8 +1,9 @@
-####################################
-#            PYGSIMPLENET          #
-#            VERSION: 1.0          #
-#       AUTHOR: SAMUEL ANDRADE     #
-####################################
+###########################################
+#               PYGSIMPLENET              #
+#               VERSION: 1.0              #
+#          AUTHOR: SAMUEL ANDRADE         #
+# GITHUB: https://github.com/KheuzAndrade #
+###########################################
 
 import socket
 import threading
